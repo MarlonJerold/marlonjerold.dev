@@ -1,0 +1,344 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/montserrat-regular.woff2') format('woff2'),
+         url('../font/montserrat-regular.woff') format('woff');
+}
+
+body {
+    padding-left: 0;
+    margin: 0;
+    padding-right: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #fff;
+
+}
+
+.header-main {
+    height: 70vh;
+    width: 100vw; 
+    max-width: 100%;
+    background-image: linear-gradient(rgba(21, 21, 22, 0.5), rgba(0, 0, 255, 0.144)),url('../img/backgroud.JPG'); /* Substitua 'caminho_para_a_imagem' pelo caminho correto */
+    background-size: cover;
+}
+
+.header {
+    height: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+  }
+  
+  .container-left {
+    flex: 1 1 0;
+  }
+  
+  .container-rigth {
+    flex: 1 1 0;
+    display: flex;
+  }
+  
+  
+  .container-left nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; 
+}
+
+.container-left nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 20px; 
+}
+
+.text-right {
+    float: right;
+    text-align: right; 
+    height: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.text-right nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.text-right nav ul li {
+    display: inline-block;
+    margin-left: 20px; 
+    text-decoration: none;
+}
+
+.text-right nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hinden {
+    opacity: 0;
+    filter: blur(0.3px);
+    transform: translate(-100%);
+    transition: all 2s;
+}
+
+.show {
+    opacity:1;
+    filter: blur(0);
+    transform: translate(0);
+    transition: all 2s;
+}
+
+.apresentation :nth-child(2) {
+    transition-delay: 400ms;
+}
+
+.apresentation :nth-child(3) {
+    transition-delay: 700ms;
+}
+
+.apresentation :nth-child(4) {
+    transition-delay: 900ms;
+}
+
+
+.apresentation {
+    height: 200px;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.myname {
+    margin-top: 150px;
+    font-size: 46px
+}
+
+.sofwaredeveloper {
+    font-size: 36px;
+}
+.frasedeefeito{
+    font-size: 20px;
+}
+
+.duvidas {
+    margin-top: 40px;
+}
+
+.services{
+    color: #303030;
+    font-size: 48px;
+    margin-top: 50px;
+}
+
+.lista {
+    color: #303030;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.conteudoservices {
+    margin-top: 100px;
+    display: flex; /* Ativa o modelo flexível */
+    justify-content: center; /* Centraliza horizontalmente os itens */
+    height: 480px;
+}
+
+.container {
+    width: 250px; /* Largura dos contêineres (ajuste conforme necessário) */
+    height: 350px; /* Altura dos contêineres (ajuste conforme necessário) */
+    background-color: #f0f0f0; /* Cor de fundo dos contêineres (pode ser alterada) */
+    margin: 0 40px; /* Espaçamento entre os contêineres (ajuste conforme necessário) */
+}
+
+.comofunciona {
+    margin-top: 100px;
+    display: flex; /* Ativa o modelo flexível */
+    justify-content: center; /* Centraliza horizontalmente os itens */
+    height: 51vw;
+}
+
+
+.sectionservices {
+    height: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+.cardservices {
+    margin-top: 40px;
+    width: 250px; /* Largura dos contêineres (ajuste conforme necessário) */
+    height: 350px; /* Altura dos contêineres (ajuste conforme necessário) */
+    background-color: #f0f0f0; /* Cor de fundo dos contêineres (pode ser alterada) */
+}
+
+.card{
+    height: 250px;
+    color: #303030;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+.cardService {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+}
+
+.cardService > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.imagem {
+    height: 50px;
+    width: 50px;
+}
+
+.comofunciona {
+    width: 100%;
+    background-color:#14213D;
+    height: 10px;
+}
+
+
+
+.card p {
+    font-weight: lighter;
+}
+
+.cards {
+    height: 100vw;
+    display: flex; /* usar o flexbox */
+    justify-content: center; /* centralizar horizontalmente */
+    align-items: center;
+}
+
+.cards p {
+    height: 30px;
+    color: #303030;
+    font-size: 35px;
+}
+
+
+
+.contatos {
+    display: grid;
+    display: flex;
+    grid-template-columns: 1fr, 1fr;
+    max-width: 100%;
+    flex-wrap: wrap;
+
+}
+.contatos > div {
+    flex: 1 1 200px;
+    padding: 10px;
+}
+
+.marlon  {
+    height: 100px;
+    width: 100px;
+}
+
+
+.texto {
+    color: #303030;
+    margin-top: 200px;
+    font-size: 23px;
+}
+
+.teste {
+   width: 100%;
+   margin-top: 200px;
+}
+
+.conversa {
+    height: 400px;
+    width: 100%;
+    background-color: #14213D;
+}
+
+.agendeumaconversa {
+    padding-top: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20%;
+}
+
+.conversaagenda {
+    font-size: 42px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.column-1, .column-2 {
+    flex: 1; /* Para que cada coluna ocupe a mesma largura */
+    margin: 0; /* Remover margens padrão */
+    padding: 0; /* Remover preenchimento padrão */
+    list-style-type: none; /* Remover marcadores de lista */
+}
+
+.column-1 li,
+.column-2 li {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color:#14213D;
+    color: #fff;
+    padding: 20px 0;
+    border-top: 1px solid #263657;
+    text-align: center;
+}
+
+.container {
+    height: 30px;
+    max-width: 100%;
+    background-color: #14213D;
+    margin: 0 auto;
+}
+
+.conversaagenda {
+    position: relative;
+}
+
+.conversaagenda:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px; 
+    border-bottom: 1px solid #fff;
+}
+
+
+@keyframes lineAnimation {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50%;
+    }
+}
+
+.conversaagenda {
+    position: relative;
+}
+
+.conversaagenda::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Ajuste conforme necessário */
+    height: 2px; /* Defina a altura da linha */
+    width: 0;
+    background-color:#fff; /* Cor da linha */
+    animation: lineAnimation 0.5s ease forwards; /* Aplicar animação */
+}
